@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dental_office *.css
+recursive-include dental_office *.csv
+recursive-include dental_office *.html
+recursive-include dental_office *.ico
+recursive-include dental_office *.js
+recursive-include dental_office *.json
+recursive-include dental_office *.md
+recursive-include dental_office *.png
+recursive-include dental_office *.py
+recursive-include dental_office *.svg
+recursive-include dental_office *.txt
+recursive-exclude dental_office *.pyc
